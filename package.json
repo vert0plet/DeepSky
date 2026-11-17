@@ -1,0 +1,20 @@
+{
+  "name": "deepsky-observer",
+  "version": "0.6.4",
+  "private": true,
+  "scripts": {
+    "native:bundle": "esbuild scripts/native-entry.mjs --bundle --format=esm --target=es2020 --outfile=dist/vendor/native-bridge.mjs",
+    "android:sync": "npm run native:bundle && cap sync android",
+    "test": "node scripts/test-core.mjs && node scripts/test-filter-model.mjs && node scripts/test-overview.mjs && node scripts/test-observing.mjs && node scripts/test-planetarium.mjs && node scripts/test-weather.mjs"
+  },
+  "dependencies": {
+    "@capacitor/android": "8.6.0",
+    "@capacitor/app": "8.1.2",
+    "@capacitor/cli": "8.6.0",
+    "@capacitor/core": "8.6.0",
+    "@capacitor/filesystem": "8.1.5",
+    "@capacitor/geolocation": "8.2.4",
+    "@capacitor/share": "8.0.3",
+    "esbuild": "0.28.2"
+  }
+}

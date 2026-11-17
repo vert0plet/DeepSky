@@ -1,0 +1,27 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {createRequire} from 'node:module';
+import {planNight,eyepieceGeometry} from '../dist/observing.mjs';
+import {freshState,cleanState,fromLocal,skyContext,horizontal,difficulty,groupForType} from '../dist/core.mjs';
+const A=createRequire(import.meta.url)('../dist/vendor/astronomy.js');
+const catalog=JSON.parse(fs.readFileSync(new URL('../dist/data/catalog.json',import.meta.url)));
+const s={...freshState().settings,latitude:56,longitude:37.6,sqm:21.35,transparency:4,utcOffset:3};
+const options={start:fromLocal('2026-11-05T22:00',3),duration:240,minutesPerTarget:20,maxScore:3,minAltitude:25};
+const plan=planNight(A,catalog,s,options);
+assert(plan.slots.length>=5,'useful night plan');assert.equal(new Set(plan.slots.map(x=>x.objectId)).size,plan.slots.length);
+let last=Date.parse(plan.startAt);
+for(const slot of plan.slots){assert(Date.parse(slot.startAt)>=last);assert(Date.parse(slot.endAt)<=Date.parse(plan.endAt));last=Date.parse(slot.endAt);const o=catalog.find(o=>o.id===slot.objectId);for(const f of [0,.5,1]){const date=new Date(Date.parse(slot.startAt)+(Date.parse(slot.endAt)-Date.parse(slot.startAt))*f);const sky=skyContext(A,date,s),h=horizontal(A,o,date,s),d=difficulty(o,s,h,sky);assert(h.altitude>=25);assert(d.score!=null&&d.score<=3);assert(sky.sun.altitude<(['special','quasar','open','globular','planetary'].includes(o.type)?-12:-18));}}
+const found=new Set(plan.slots.map(x=>x.objectId));assert(planNight(A,catalog,s,options,found).slots.every(x=>!found.has(x.objectId)));
+const galaxies=planNight(A,catalog,s,{...options,group:'galaxy'});assert(galaxies.slots.every(x=>groupForType(catalog.find(o=>o.id===x.objectId).type)==='galaxy'));
+assert.equal(planNight(A,catalog,s,{...options,start:fromLocal('2026-11-05T12:00',3),duration:60}).slots.length,0,'no daytime targets');
+assert.equal(planNight(A,catalog,{...s,latitude:56},{...options,start:fromLocal('2026-06-21T00:00',3)}).slots.length,0,'no invented dark night in June');
+assert.throws(()=>planNight(A,catalog,s,{start:'invalid'}));
+const g=eyepieceGeometry(s,{focalLength:25,afov:50});assert.equal(g.magnification,30);assert.equal(g.exitPupil,5);assert(Math.abs(g.trueFov-5/3)<1e-9);
+const narrow=eyepieceGeometry(s,{focalLength:10,afov:50});assert(narrow.trueFov<g.trueFov);assert(narrow.exitPupil<g.exitPupil);
+const state=freshState();state.settings.eyepieces.push({id:'second',name:'Мой 10 мм',focalLength:10,afov:60});state.settings.activeEyepieceId='second';state.settings.eyepiece=10;state.settings.afov=60;
+state.lists.push({id:'planned',name:'Выезд',objectIds:plan.slots.map(x=>x.objectId),schedule:plan.slots,createdAt:new Date().toISOString()});
+const restored=cleanState(JSON.parse(JSON.stringify(state)));assert.equal(restored.settings.eyepieces[1].afov,60);assert.equal(restored.settings.activeEyepieceId,'second');assert.equal(restored.lists[0].schedule.length,plan.slots.length);
+const bad=JSON.parse(JSON.stringify(state));bad.lists[0].schedule.push({objectId:'not-in-list',startAt:'2026-11-05T19:00:00Z',endAt:'2026-11-05T19:20:00Z'});assert.equal(cleanState(bad).lists[0].schedule.length,plan.slots.length);
+const old=freshState();delete old.settings.eyepieces;delete old.settings.activeEyepieceId;old.settings.eyepiece=17;assert.equal(cleanState(old).settings.eyepieces[0].focalLength,17);
+for(const id of ['NGC604','NGC1491','NGC404','NGC7217'])assert(catalog.some(o=>o.id===id));assert.equal(catalog.find(o=>o.id==='NGC604').parentObjectId,'NGC598');
+console.log(`PASS: ${plan.slots.length} valid non-overlapping night slots, midnight, daylight/white-night exclusions, found/type filters, eyepiece optics and persistent compatible settings/plans.`);

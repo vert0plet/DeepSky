@@ -1,0 +1,858 @@
+[
+  {
+    "id": "NGC604",
+    "reason": "Запрошен пользователем",
+    "catalogType": "HII",
+    "declination": 30.784889,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC1491",
+    "reason": "Запрошен пользователем",
+    "catalogType": "HII",
+    "declination": 51.316083,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC404",
+    "reason": "Запрошен пользователем",
+    "catalogType": "G",
+    "declination": 35.718139,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC7217",
+    "reason": "Запрошен пользователем",
+    "catalogType": "G",
+    "declination": 31.359333,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC55",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "G",
+    "declination": -39.196639,
+    "challenge": false,
+    "southern": true
+  },
+  {
+    "id": "NGC104",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "GCl",
+    "declination": -72.081444,
+    "challenge": false,
+    "southern": true
+  },
+  {
+    "id": "NGC129",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "OCl",
+    "declination": 60.211167,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC188",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "OCl",
+    "declination": 85.269639,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC225",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "OCl",
+    "declination": 61.766944,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC247",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "G",
+    "declination": -20.760389,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC253",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "G",
+    "declination": -25.288222,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC288",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "GCl",
+    "declination": -26.589889,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC300",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "G",
+    "declination": -37.684389,
+    "challenge": false,
+    "southern": true
+  },
+  {
+    "id": "NGC362",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "GCl",
+    "declination": -70.848222,
+    "challenge": false,
+    "southern": true
+  },
+  {
+    "id": "NGC381",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "OCl",
+    "declination": 61.583278,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC559",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "OCl",
+    "declination": 63.301444,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC654",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "OCl",
+    "declination": 61.882722,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC659",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "OCl",
+    "declination": 60.669167,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC772",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "G",
+    "declination": 19.007528,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC936",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "G",
+    "declination": -1.156278,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC1097",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "G",
+    "declination": -30.274889,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC1245",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "OCl",
+    "declination": 47.238694,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC1342",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "OCl",
+    "declination": 37.379389,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC1360",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "PN",
+    "declination": -25.871722,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC1545",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "OCl",
+    "declination": 50.255333,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC1664",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "OCl",
+    "declination": 43.676167,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC1788",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "RfN",
+    "declination": -3.340972,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC1807",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "OCl",
+    "declination": 16.51275,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC1817",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "OCl",
+    "declination": 16.684083,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC1851",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "GCl",
+    "declination": -40.046611,
+    "challenge": false,
+    "southern": true
+  },
+  {
+    "id": "NGC1999",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "RfN",
+    "declination": -6.715861,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC2070",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "HII",
+    "declination": -69.100889,
+    "challenge": false,
+    "southern": true
+  },
+  {
+    "id": "NGC2169",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "OCl",
+    "declination": 13.964861,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC2174",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "Neb",
+    "declination": 20.659583,
+    "challenge": true,
+    "southern": false
+  },
+  {
+    "id": "NGC2194",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "OCl",
+    "declination": 12.806667,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC2232",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "OCl",
+    "declination": -4.847444,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC2239",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "Cl+N",
+    "declination": 4.942944,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC2281",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "OCl",
+    "declination": 41.078861,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC2301",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "OCl",
+    "declination": 0.459194,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC2359",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "HII",
+    "declination": -13.227194,
+    "challenge": true,
+    "southern": false
+  },
+  {
+    "id": "NGC2360",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "OCl",
+    "declination": -15.641306,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC2362",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "OCl",
+    "declination": -24.954194,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC2419",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "GCl",
+    "declination": 38.879972,
+    "challenge": true,
+    "southern": false
+  },
+  {
+    "id": "NGC2420",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "OCl",
+    "declination": 21.574083,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC2438",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "PN",
+    "declination": -14.735778,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC2440",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "PN",
+    "declination": -18.208472,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC2477",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "OCl",
+    "declination": -38.53325,
+    "challenge": false,
+    "southern": true
+  },
+  {
+    "id": "NGC2506",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "OCl",
+    "declination": -10.769639,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC2516",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "OCl",
+    "declination": -60.753472,
+    "challenge": false,
+    "southern": true
+  },
+  {
+    "id": "NGC2539",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "OCl",
+    "declination": -12.820667,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC2768",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "G",
+    "declination": 60.037222,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC2787",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "G",
+    "declination": 69.20325,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC2976",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "G",
+    "declination": 67.916389,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC3115",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "G",
+    "declination": -7.718583,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC3189",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "G",
+    "declination": 21.832306,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC3193",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "G",
+    "declination": 21.893972,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC3227",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "G",
+    "declination": 19.865056,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC3372",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "HII",
+    "declination": -59.866694,
+    "challenge": false,
+    "southern": true
+  },
+  {
+    "id": "NGC3384",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "G",
+    "declination": 12.629278,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC3432",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "G",
+    "declination": 36.618778,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC3532",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "OCl",
+    "declination": -58.7705,
+    "challenge": false,
+    "southern": true
+  },
+  {
+    "id": "NGC3607",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "G",
+    "declination": 18.05175,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC3675",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "G",
+    "declination": 43.585917,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC3726",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "G",
+    "declination": 47.029194,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC3893",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "G",
+    "declination": 48.710833,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC4026",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "G",
+    "declination": 50.961694,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC4038",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "G",
+    "declination": -18.867611,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC4039",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "G",
+    "declination": -18.886194,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC4088",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "G",
+    "declination": 50.539028,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC4111",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "G",
+    "declination": 43.065722,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC4147",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "GCl",
+    "declination": 18.542139,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC4214",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "G",
+    "declination": 36.326889,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC4216",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "G",
+    "declination": 13.149389,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC4274",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "G",
+    "declination": 29.614472,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC4278",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "G",
+    "declination": 29.28075,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC4361",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "PN",
+    "declination": -18.784833,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC4414",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "G",
+    "declination": 31.223528,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC4435",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "G",
+    "declination": 13.078944,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC4438",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "G",
+    "declination": 13.008833,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC4494",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "G",
+    "declination": 25.77525,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC4526",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "G",
+    "declination": 7.699528,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC4535",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "G",
+    "declination": 8.19775,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC4559",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "G",
+    "declination": 27.96,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC4605",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "G",
+    "declination": 61.609194,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC4697",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "G",
+    "declination": -5.80075,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC4755",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "OCl",
+    "declination": -60.356306,
+    "challenge": false,
+    "southern": true
+  },
+  {
+    "id": "NGC5139",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "GCl",
+    "declination": -47.476861,
+    "challenge": false,
+    "southern": true
+  },
+  {
+    "id": "NGC5248",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "G",
+    "declination": 8.885167,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC5634",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "GCl",
+    "declination": -5.976417,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC5746",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "G",
+    "declination": 1.955,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC5986",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "GCl",
+    "declination": -37.786139,
+    "challenge": false,
+    "southern": true
+  },
+  {
+    "id": "NGC6231",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "OCl",
+    "declination": -41.82425,
+    "challenge": false,
+    "southern": true
+  },
+  {
+    "id": "NGC6302",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "PN",
+    "declination": -37.103139,
+    "challenge": false,
+    "southern": true
+  },
+  {
+    "id": "NGC6397",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "GCl",
+    "declination": -53.673694,
+    "challenge": false,
+    "southern": true
+  },
+  {
+    "id": "NGC6369",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "PN",
+    "declination": -23.759444,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC6441",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "GCl",
+    "declination": -37.051083,
+    "challenge": false,
+    "southern": true
+  },
+  {
+    "id": "NGC6752",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "GCl",
+    "declination": -59.981861,
+    "challenge": false,
+    "southern": true
+  },
+  {
+    "id": "NGC6818",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "PN",
+    "declination": -14.153167,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC6819",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "OCl",
+    "declination": 40.18675,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC6910",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "OCl",
+    "declination": 40.778611,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC6934",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "GCl",
+    "declination": 7.404111,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC7006",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "GCl",
+    "declination": 16.187528,
+    "challenge": true,
+    "southern": false
+  },
+  {
+    "id": "NGC7009",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "PN",
+    "declination": -11.36325,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC7243",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "OCl",
+    "declination": 49.8975,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC7293",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "PN",
+    "declination": -20.837333,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC7510",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "OCl",
+    "declination": 60.570889,
+    "challenge": false,
+    "southern": false
+  },
+  {
+    "id": "NGC7635",
+    "reason": "Известная визуальная цель: яркое скопление, галактика или классическая туманность",
+    "catalogType": "HII",
+    "declination": 61.212361,
+    "challenge": true,
+    "southern": false
+  }
+]

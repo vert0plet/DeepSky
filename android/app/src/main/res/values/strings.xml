@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">DeepSky</string>
+    <string name="title_activity_main">DeepSky</string>
+    <string name="package_name">ru.egorych.deepsky</string>
+    <string name="custom_url_scheme">ru.egorych.deepsky</string>
+</resources>

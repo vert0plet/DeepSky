@@ -1,0 +1,90 @@
+[
+  {
+    "id": "openngc",
+    "title": "OpenNGC",
+    "author": "Mattia Verga and contributors",
+    "url": "https://github.com/mattiaverga/OpenNGC",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "files": [
+      "catalog.json"
+    ],
+    "changes": "Selected objects; normalized identifiers; added Russian names/descriptions. B-band surface brightness preserved as B. Missing values remain null.",
+    "snapshot": "2026-11-02"
+  },
+  {
+    "id": "hyg",
+    "title": "HYG Database v4.1",
+    "author": "David Nash / Astronomy Nexus",
+    "url": "https://github.com/astronexus/HYG-Database",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "files": [
+      "stars.json"
+    ],
+    "changes": "Sun removed. All entries mag≤7.0 plus entries mag≤9.5 within 2.5° of selected targets; positions rounded to 0.0001°. Columns: ra_deg,dec_deg,Vmag,label,HIP (0 if absent). HYG positions are J2000, fixed-position finder charts; proper motion is not propagated.",
+    "count": 25158,
+    "snapshot": "2026-11-02"
+  },
+  {
+    "id": "simbad",
+    "title": "SIMBAD Astronomical Database",
+    "author": "CDS, Strasbourg Observatory, France",
+    "url": "https://simbad.cds.unistra.fr",
+    "files": [
+      "catalog.json"
+    ],
+    "changes": "Positions of HD 226868 and 3C 273; V photometry of HD 226868. Catalogue snapshots, not live measurements.",
+    "snapshot": "2026-11-02"
+  },
+  {
+    "id": "vsx",
+    "title": "AAVSO VSX / APASS DR9: 3C 273",
+    "author": "AAVSO",
+    "url": "https://vsx.aavso.org/index.php?oid=185255&view=detail.top",
+    "files": [
+      "catalog.json"
+    ],
+    "changes": "V=12.74 from APASS DR9 and reported V variability range 12.20–13.57. Not a prediction of present brightness.",
+    "snapshot": "2026-11-02"
+  },
+  {
+    "id": "visual-extension",
+    "title": "Popular visual targets extension",
+    "url": "https://github.com/mattiaverga/OpenNGC",
+    "license": "CC BY-SA 4.0",
+    "files": [
+      "catalog.json",
+      "details.json"
+    ],
+    "snapshot": "2026-11-05",
+    "count": 107
+  },
+  {
+    "id": "hyg-planetarium",
+    "title": "HYG Database 4.1 — planetarium selection",
+    "author": "David Nash / Astronomy Nexus",
+    "url": "https://github.com/astronexus/HYG-Database",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "files": [
+      "sky-stars.json"
+    ],
+    "count": 116987,
+    "snapshot": "2026-11-06",
+    "changes": "Sun removed; HYG entries with magnitude <= 11.5, across the entire sky. Not complete to this magnitude. J2000 positions rounded to 0.00001 degree; proper motion not propagated. Columns: RA degrees, Dec degrees, magnitude, label, HIP, HYG ID."
+  },
+  {
+    "id": "gaia-deep-fields",
+    "title": "Gaia DR3 — deep target fields",
+    "author": "ESA / Gaia / DPAC; Gaia@AIP TAP mirror",
+    "url": "https://gaia.aip.de/metadata/gaiadr3/gaia_source/",
+    "files": [
+      "sky-stars.json"
+    ],
+    "count": 103447,
+    "snapshot": "2026-11-06",
+    "changes": "G=9.5–14 within 0.4 degree of the 306 catalogue targets; Unique source IDs retained. Linear tangent-plane proper-motion propagation from J2016 to J2000; absent proper motions treated as zero. Three-arcsecond crossmatch against HYG removed overlaps. Gaia source IDs retained as strings, row column 7 is G. G is not Johnson V; magnitude limits describe map detail, not visual detectability.",
+    "credit": "Data from ESA Gaia, processed by the Gaia Data Processing and Analysis Consortium (DPAC). DPAC funding is provided by national institutions participating in the Gaia Multilateral Agreement."
+  }
+]

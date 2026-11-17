@@ -1,0 +1,8 @@
+{
+  "appId": "ru.egorych.deepsky",
+  "appName": "DeepSky",
+  "webDir": "dist",
+  "server": {"androidScheme": "https"},
+  "android": {"allowMixedContent": false, "backgroundColor": "#070d17"},
+  "plugins": {"SystemBars": {"hidden": true, "initialViewportFitValueHint": "cover"}}
+}
